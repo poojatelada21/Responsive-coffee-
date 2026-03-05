@@ -35,3 +35,28 @@ border-color:#6b4f3b;
 box-shadow:0 0 4px rgba(107,79,59,0.3);
 outline:none;
 }
+options{
+text-align:right;
+font-size:13px;
+margin:12px 0;
+}
+
+.password-container{
+display:flex;
+align-items:center;
+border:1px solid #ddd;
+border-radius:6px;
+background:white;
+padding:0 10px;
+margin-top:5px;
+}
+
+.input-password{
+border:none;
+outline:none;
+padding:10px;
+font-size:16px;
+flex:1;
+width:auto;
+margin-top:0;
+}
