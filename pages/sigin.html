@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./page css/sign in.css">
     <link rel="stylesheet" href="./page css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <script src="././/pages/script.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="../page js/sign in.js"></script>
+
 </head>
 
 <body>
@@ -58,7 +58,29 @@
 
         </form>
 
-    </div>g
+    </div>
+    <script>
+        const toggle = document.getElementById("toggle");
+const password = document.getElementById("password");
+
+toggle.onclick = function () {
+    if (password.type === "password") {
+        password.type = "text";
+        toggle.textContent = "👁‍🗨";
+    } else {
+        password.type = "password";
+        toggle.textContent = "👁";
+    }
+};
+    </script>
+
+    <section class="cta">
+        <h2>Visit Us Today & Enjoy the Perfect Cup</h2>
+        <button class="btn" onclick="orderNow()">Order Now</button>
+    </section>
+    <footer>
+        © 2026 Brew Haven Coffee | All Rights Reserved
+    </footer>
 </body>
 
 </html>
