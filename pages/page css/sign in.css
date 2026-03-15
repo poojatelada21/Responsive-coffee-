@@ -152,7 +152,7 @@ footer{
     background:#ffcc80;
     color:#3e2723;
     padding:10px 25px;
-    border-radius:50px;   /* yane button adakruti (oval) hoto */
+    border-radius:50px;   
     font-size:14px;
     cursor:pointer;
     margin-top:20px;
@@ -199,7 +199,7 @@ footer{
     margin-top:auto;
 }
 
-/* Responsive Design */
+
 @media(max-width:768px){
 
     .login-container{
