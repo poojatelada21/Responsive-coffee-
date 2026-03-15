@@ -56,6 +56,8 @@ border:none;
 padding:12px;
 width:100%;
 color:#fff;
+
+
 cursor:pointer;
 font-size:16px;
 border-radius:5px;
@@ -63,4 +65,33 @@ border-radius:5px;
 
 button:hover{
 background:#5d4037;
+}
+<<<<<<< HEAD
+
+@media (max-width:768px){
+    header{
+        flex-direction: column;
+        text-align: center;
+
+    }
+    nav a{
+        display: block;
+        margin: 10px 0;
+    }
+
+    .order-box{
+        width: 90%;
+        padding: 20px;
+    }
+    }
+
+
+
+    
+footer{
+    background:#2b1d1a;
+    color:#ccc;
+    padding:30px 8%;
+    text-align:center;
+    font-size:14px;
 }
