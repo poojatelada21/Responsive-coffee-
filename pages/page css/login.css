@@ -6,7 +6,11 @@
 }
 
 body {
+<<<<<<< HEAD
   background: #f8f5f2;;
+=======
+  background: url(/image/coffee.webp);
+>>>>>>> 5a60077d5b8bdf18f65e8c309cf946d7f369e9bb
 
   background-size: cover;
   background-position: center;
